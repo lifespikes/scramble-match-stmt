@@ -3,6 +3,23 @@ This Scramble extension was made as an experiment of how usable PhpParser may be
 
 In essence, it allows you to scan `JsonResource` classes whose `toArray` features a dynamic return type through a `match` statement.
 
+## Install
+```php
+composer require lifespikes/scramble-match-stmt
+```
+
+Then, in your `scramble.php` config file:
+
+```php
+use LifeSpikes\ScrambleMatchStmt\ResourceWithMatchExtension;
+
+...
+
+'extensions' => [
+    ResourceWithMatchExtension::class
+]
+```
+
 ## Analyzing the code
 Scramble gives us the FQN of the type being analyzed, using `ReflectionClass`, we get the file path of the class.
 
