@@ -1,6 +1,7 @@
 {
   "name": "lifespikes/scramble-match-stmt",
   "description": "Sample extension for Scramble usage with PhpParser",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "LifeSpikes\\ScrambleMatchStmt\\": "src"
@@ -9,5 +10,7 @@
   "require": {
     "php": "^8.1.2",
     "laravel/framework": ">=9.2"
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
