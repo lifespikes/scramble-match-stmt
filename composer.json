@@ -1,0 +1,14 @@
+{
+  "name": "lifespikes/scramble-match-stmt",
+  "description": "Sample extension for Scramble usage with PhpParser",
+  "autoload": {
+    "psr-4": {
+      "LifeSpikes\\ScrambleMatchStmt\\": "src"
+    }
+  },
+  "require": {
+    "php": "^8.1.2",
+    "dedoc/scramble": "^0.8.4",
+    "laravel/framework": "^9.2"
+  }
+}
